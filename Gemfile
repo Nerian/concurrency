@@ -6,8 +6,9 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.4'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+# gem 'sqlite3'
 
+gem 'activerecord-jdbcsqlite3-adapter'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
 
@@ -35,7 +36,7 @@ group :doc do
 end
 
 # gem 'thin'
-gem 'rubysl-irb'
+# gem 'rubysl-irb'
 
 gem 'puma'
 # Use ActiveModel has_secure_password
